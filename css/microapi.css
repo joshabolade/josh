@@ -1,5 +1,15 @@
 body{
-    background: #262626;
+    background: linear-gradient(
+         281.05deg,
+         #161616 100.04%,
+         rgba(22, 22, 22, 0) 6.33%
+      ),
+      linear-gradient(
+         199.86deg,
+         rgba(22, 22, 22, 0) 6.76%,
+         rgba(22, 22, 22, 0.867683) 7.44%,
+         #161616 3.81%
+      );
 }
 .first-card{
     background: url(../img/Group\ 1499.png);
@@ -51,3 +61,49 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     margin-top: 40px;
 }
+
+@media (max-width: 768px) {
+    .content{
+       margin-left: 55px;
+    }
+    .first-card, .third-card, .eighth-card{
+       width: 100%;
+    }
+    .second-card .left-expense{
+       margin-top: 0px;
+    }
+    .second-card .right-expense{
+       width: 100%;
+       margin-top: -50px;
+    }
+    .forth-card .right-expense, .fifth-card .right-expense{
+       margin-top: 50px;
+       width: 90%;
+    }
+    .fifth-card .left-expense {
+       margin-top: 0;
+    }
+    .left-topography p {
+       border-radius: 50%;
+       width: 86.3px;
+       height: 86.37px;
+       font-weight: bold;
+       text-align: center;
+       margin-top: 30px;
+       padding-top: 30px;
+    }
+    .seventh-card .left-expense{
+       margin-top: 10px;
+    }
+    .seventh-card .right-expense{
+       margin-top: 40px;
+       width: 90%;
+    }
+    .nineth-card .left-expense{
+       margin-top: 15px;
+    }
+    .nineth-card .right-expense{
+       margin-top: 40px;
+       width: 90%;
+    }
+ }

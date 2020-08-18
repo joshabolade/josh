@@ -1,5 +1,15 @@
 body{
-    background: #262626;
+    background: linear-gradient(
+         281.05deg,
+         #161616 100.04%,
+         rgba(22, 22, 22, 0) 6.33%
+      ),
+      linear-gradient(
+         199.86deg,
+         rgba(22, 22, 22, 0) 6.76%,
+         rgba(22, 22, 22, 0.867683) 7.44%,
+         #161616 3.81%
+      );
 }
 .first-card{
     background: url(../img/m1.png);

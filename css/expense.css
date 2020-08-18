@@ -1,5 +1,4 @@
 body {
-   /* background: #262626; */
    background: linear-gradient(
          281.05deg,
          #161616 100.04%,
@@ -30,16 +29,16 @@ h3 {
    font-size: 24px;
    line-height: 28px;
    color: #dddddd;
-   font-family: "Ubuntu", sans-serif;
+   font-family: "lato", sans-serif;
 }
 p {
    font-size: 14px;
    line-height: 160.5%;
    color: #dddddd;
-   font-family: "Ubuntu", sans-serif;
+   font-family: "lato", sans-serif;
 }
 .second-card .left-expense {
-   background: url(../img/group\381png);
+   background: url(../img/Group\ 381.png);
    background-repeat: no-repeat;
    width: 50%;
    height: 124px;
@@ -56,7 +55,7 @@ p {
    margin-top: 30px;
 }
 .third-card {
-   background: url(../img/group\1488png);
+   background: url(../img/Group\ 1488.png);
    width: 758px;
    height: 272px;
 }
@@ -64,7 +63,7 @@ p {
    margin-top: 20px;
 }
 .forth-card .left-expense {
-   background: url(../img/iMac\Pro\Front\View.png);
+   background: url(../img/iMac\ Pro\ Front\ View.png);
    background-repeat: no-repeat;
    width: 50%;
    height: 240.65px;
@@ -76,7 +75,7 @@ p {
    width: 60%;
 }
 .fifth-card .left-expense {
-   background: url(../img/smartmockups_kdra0ffh\1png);
+   background: url(../img/smartmockups_kdra0ffh\ 1.png);
    background-repeat: no-repeat;
    width: 50%;
    height: 206px;
@@ -129,13 +128,15 @@ h4 {
 }
 
 .seventh-card .left-expense {
-   background: url(../img/smartmockups_kdraonvn\1png);
+   background: url(../img/smartmockups_kdraonvn\ 1.png);
    background-repeat: no-repeat;
+   width: 283px;
+   height: 151px;
    width: 50%;
    margin-top: 90px;
 }
 .eighth-card {
-   background: url(../img/Desktop\-\1png);
+   background: url(../img/Desktop\ -\ 1.png);
    background-repeat: no-repeat;
    width: 758px;
    height: 441px;
@@ -173,4 +174,47 @@ h6 {
 }
 
 @media (max-width: 768px) {
+   .content{
+      margin-left: -85px;
+   }
+   .first-card, .third-card, .eighth-card{
+      /* width: 730px; */
+      width: 95%;
+   }
+   .second-card .left-expense{
+      margin-top: 50px;
+   }
+   .second-card .right-expense{
+      width: 90%;
+   }
+   .forth-card .right-expense, .fifth-card .right-expense{
+      margin-top: 50px;
+      width: 90%;
+   }
+   .fifth-card .left-expense {
+      margin-top: 0;
+   }
+   .left-topography p {
+      border-radius: 50%;
+      width: 86.3px;
+      height: 86.37px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 30px;
+   }
+   .seventh-card .left-expense{
+      margin-top: 10px;
+   }
+   .seventh-card .right-expense{
+      margin-top: 40px;
+      width: 90%;
+   }
+   .nineth-card .left-expense{
+      margin-top: 15px;
+   }
+   .nineth-card .right-expense{
+      margin-top: 40px;
+      width: 90%;
+   }
 }
