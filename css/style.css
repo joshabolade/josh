@@ -123,6 +123,7 @@ a:focus {
    text-decoration: none;
    transition: all 0.3s;
    font-family: "Fredoka One", cursive;
+   letter-spacing: 0.18em;
 }
 #sidebar ul li a:hover {
    color: #fff;
@@ -182,7 +183,7 @@ ul ul a {
 .home {
    width: 100%;
    padding: 20px;
-   /*min-height: 100vh;
+   /* min-height: 100vh;
    */
    /* margin-top: -50px; */
    transition: all 0.3s;
