@@ -1,3 +1,6 @@
+body{
+    background: #262626;
+}
 .card{
     margin-top: 20px;
     border-left: 5px solid #FFEA00;
@@ -13,23 +16,32 @@
     margin-bottom: 30px;
 }
 .left-card{
-    width: 40%;
+    width: 50%;
     height: 236px;
 }
 .right-card{
-    width: 50%;
+    width: 40%;
+    margin-left: 20px;
 }
 .card1{
     background: url(../img/Rectangle\ 28.png);
+    width: 318px;
+    height: 236px;
 }
 .card2{
     background: url(../img/Rectangle\ 29.png);
+    width: 318px;
+    height: 236px;
 }
 .card3{
     background: url(../img/Rectangle\ 22.png);
+    width: 318px;
+    height: 236px;
 }
 .card4{
     background: url(../img/Rectangle\ 30.png);
+    width: 318px;
+    height: 236px;
 }
 .right-card h3{
     color: #fff;
@@ -43,4 +55,18 @@
     color: #FFEA00;
     font-size: 16px;
     line-height: 19px;
+}
+
+@media (max-width: 768px){
+    .project-card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left-card{
+        width: 100%;
+    }
+    .right-card{
+        width: 100%;
+        margin-top: 30px;
+    }
 }

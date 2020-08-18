@@ -171,3 +171,6 @@ h6 {
    color: #dddddd;
    text-align: center;
 }
+
+@media (max-width: 768px) {
+}

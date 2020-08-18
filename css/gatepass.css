@@ -1,3 +1,6 @@
+body{
+    background: #262626;
+}
 .first-card{
     background: url(../img/bank1.png);
     background-repeat: no-repeat;
