@@ -1,0 +1,56 @@
+.first-card{
+    background: url(../img/bank1.png);
+    background-repeat: no-repeat;
+}
+.second-card .left-expense{
+    background: url(../img/image\ 2.png);
+    background-repeat: no-repeat;
+}
+.third-card{
+    background: url(../img/Group\ 350.png);
+    background-repeat: no-repeat;
+}
+.forth-card .left-expense{
+    background: url(../img/image\ 3.png);
+    background-repeat: no-repeat;
+    width: 272px;
+    height: 271px;
+}
+.fifth-card .left-expense{
+    background: url(../img/smartmockups_kcw4waav\ 1.png);
+    background-repeat: no-repeat;
+    width: 304px;
+    height: 194px;
+}
+.left-topography .one{
+    background: #49A347;
+}
+.left-topography .two{
+    background: #202020;
+    color: #fff;
+}
+.left-topography .three{
+    background: #CC0010;
+    color: #fff;
+}
+.left-topography .four{
+    background: #C4C4C4;
+    color: #000;
+}
+.left-topography .five{
+    background: #464646;
+}
+.seventh-card .left-expense{
+background: url(../img/iPhone\ 11\ Pro\ Max.png);
+background-repeat: no-repeat;
+margin-top: 10px;
+}
+.eighth-card{
+    background: url(../img/Desktop\ -\ 2.png);
+    background-repeat: no-repeat;
+}
+.nineth-card .left-expense{
+    background: url(../img/79d8af10fa90bf102cc42623250b76c4\ 1.png);
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}

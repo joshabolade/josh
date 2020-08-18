@@ -1,0 +1,46 @@
+.card{
+    margin-top: 20px;
+    border-left: 5px solid #FFEA00;
+    background: #2B2B2B;
+    border-radius: 8px;
+}
+.project-card{
+    display: flex !important;
+    justify-content: space-between;
+    padding: 20px;
+}
+#about-content{
+    margin-bottom: 30px;
+}
+.left-card{
+    width: 40%;
+    height: 236px;
+}
+.right-card{
+    width: 50%;
+}
+.card1{
+    background: url(../img/Rectangle\ 28.png);
+}
+.card2{
+    background: url(../img/Rectangle\ 29.png);
+}
+.card3{
+    background: url(../img/Rectangle\ 22.png);
+}
+.card4{
+    background: url(../img/Rectangle\ 30.png);
+}
+.right-card h3{
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+}
+.right-card img{
+    margin-bottom: 70px;
+}
+.right-card a{
+    color: #FFEA00;
+    font-size: 16px;
+    line-height: 19px;
+}

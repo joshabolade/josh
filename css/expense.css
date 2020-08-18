@@ -1,0 +1,159 @@
+body{
+    background: #262626;
+}
+.act{
+    color: #fff;
+    font-weight: bold;
+}
+.expense-card{
+    width: 100%;
+}
+.first-card{
+    background: url(../img/1.png);
+    width: 758px;
+    height: 382px;
+    margin-top: 50px;
+}
+h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #DDDDDD;
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-size: 14px;
+    line-height: 160.5%;
+    color: #DDDDDD;
+    font-family: 'Ubuntu', sans-serif;
+}
+.second-card .left-expense{
+    background: url(../img/Group\ 381.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 124px;
+    margin-top: 150px;
+}
+.right-expense{
+    width: 60%;
+}
+.left-expense{
+    width: 50%;
+}
+.second-card .right-expense{
+    width: 60%;
+    margin-top: 30px;
+}
+.third-card{
+    background: url(../img/Group\ 1488.png);
+    width: 758px;
+    height: 272px;
+}
+.forth-card{
+    margin-top: 20px;
+}
+.forth-card .left-expense{
+    background: url(../img/iMac\ Pro\ Front\ View.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 240.65px;
+}
+.forth-card .right-expense, .fifth-card .right-expense, .seventh-card .right-expense, .nineth-card .right-expense{
+    width: 60%;
+}
+.fifth-card .left-expense{
+    background: url(../img/smartmockups_kdra0ffh\ 1.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 206px;
+    margin-top: 30px;
+}
+.sixth-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-topography p{
+    border-radius: 50%;
+    width: 66.3px;
+    height: 66.37px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 25px;
+}
+.left-topography .one{
+    background: #33A97E;
+}
+.left-topography .two{
+    background: #1F2430;;
+}
+.left-topography .three{
+    background: #6765EC;
+}
+.left-topography .four{
+    background: #005D3B;
+}
+.left-topography .five{
+    background: #474747;
+}
+.right-topography{
+    margin-top: 100px;
+}
+h4{
+    color: #DDDDDD;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 127.4%; 
+    font-family: 'Lato', sans-serif;   
+}
+.right-topography p{
+    font-size: 12px;
+    line-height: 127.4%;
+    color: #DDDDDD;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.seventh-card .left-expense{
+    background: url(../img/smartmockups_kdraonvn\ 1.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-top: 90px;
+}
+.eighth-card{
+    background: url(../img/Desktop\ -\ 1.png);
+    background-repeat: no-repeat;
+    width: 758px;
+    height: 441px;
+}
+.nineth-card{
+    margin-top: 20px;
+}
+.nineth-card a{
+    color: #FFEA00;
+}
+.nineth-card .left-expense{
+    background: url(../img/smartmockups_kdra0ffh2.png);
+    background-repeat: no-repeat;
+    width: 283px;
+    height: 206px;
+    margin-top: 55px;
+}
+.nineth-card .right-expense{
+margin-left: 30px;
+}
+.tenth-card p{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #DDDDDD;
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+h6{
+    color: #DDDDDD;
+    text-align: center;
+}

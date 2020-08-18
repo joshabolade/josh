@@ -1,0 +1,196 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(281.05deg, #161616 50.04%, rgba(22, 22, 22, 0) 6.33%), linear-gradient(199.86deg, rgba(22, 22, 22, 0) 6.76%, rgba(22, 22, 22, 0.867683) 7.44%, #161616 3.81%);
+    }
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.7em;
+	color: #999;
+}
+
+a,
+a:hover,
+a:focus{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.navbar{
+	padding: 15px 10px;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 40px;
+}
+
+.navbar-btn{
+	box-shadow: none;
+	outline: none!important;
+	border: none;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px dashed #ddd;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+	color: #fff;
+	margin-top: 80px;
+    transition: all 0.3s;
+}
+
+#sidebar.active{
+	margin-left: -250px;
+}
+
+#sidebar .sidebar-header h2{
+	padding: 20px;
+	font-family: 'Kaushan Script', cursive;
+    color: #FFEA00;
+    font-size: 72px;
+    line-height: 108.4%;
+}
+#sidebar .sidebar-header p{
+	color: rgba(255, 255, 255, 0.26);
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.12em;
+}
+#sidebar ul.components{
+	padding: 20px 0px;
+	padding: 40px 0;
+    margin-top: 30px;
+    list-style: none;
+}
+#sidebar ul.components .active{
+    list-style: disc;
+}
+#sidebar ul.components ul.dropdown.act{
+    color: #fff;
+    font-weight: bold;
+}
+#sidebar ul p{
+	padding: 10px;
+	font-size: 1.1em;
+    display: block;
+    color: white;
+}
+#sidebar ul li a{
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+	padding: 10px;
+    color: #AAAAAA;
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#sidebar ul li a:hover {
+    color: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    font-weight: bold;
+}
+a[data-toggle="collapse"] {
+	position: relative;
+}
+#pageSubmenu{
+	border-left: 2px solid #FFEA00;
+}
+.dropdown-toggl::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+	transform: translateY(-50%);	
+}
+#sidebar ul ul{
+    display: none;
+}
+#sidebar ul ul li a.act{
+    color: white !important;
+    font-weight: bold;;
+}
+#sidebar ul li:hover > ul{
+    display: block;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 50px !important;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+.navbar-toggler-icon{
+    background-color: #FFEA00 !important;
+    box-shadow: none !important;
+}
+.home{
+    width: 100%;
+    padding: 20px;
+    /* min-height: 100vh; */
+    transition: all 0.3s;
+    background: linear-gradient(320.05deg, #161616 38.04%, rgba(22, 22, 22, 0) 56.33%), linear-gradient(199.86deg, rgba(22, 22, 22, 0) 52.76%, rgba(22, 22, 22, 0.867683) 79.44%, #161616 83.81%), url(../img/josh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home p span{
+    color: #FFEA00;
+}
+.home p{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 350px 0  0 100px;
+}
+hr{
+    border: 1px dotted #838383;
+    width: 90%;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.footer-menu a{
+    color: #FFEA00;
+}
+.footer-menu a span{
+    color: #fff;
+}
+
+@media(max-width:768px){
+	#sidebar{margin-left: -250px;}
+	#sidebar.active{
+		margin-left: 0px;
+	}
+	#sidebarCollapse span{
+		display: none;
+    }
+    .navbar-toggler-icon{
+        background-color: #FFEA00 !important;
+        box-shadow: none !important;
+    }
+}

@@ -1,0 +1,86 @@
+.first-card{
+    background: url(../img/m1.png);
+    background-repeat: no-repeat;
+}
+.second-card .left-expense{
+    background: url(../img/4.png);
+    background-repeat: no-repeat;
+    width: 178px;
+    height: 316.96px;
+    margin-top: 50px;
+}
+.third-card{
+    background: url(../img/Rectangle\ 76.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.forth-card .left-expense{
+    background: url(../img/image\ 3.png);
+    background-repeat: no-repeat;
+    height: 271px;
+    margin-top: 30px;
+}
+.fifth-card .left-expense{
+    background: url(../img/smartmockups_kcw4waav\ 1.png);
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.left-topography .one{
+    background: #4A55A4;
+}
+.left-topography .two{
+    background: #373737;
+    color: white;
+}
+.left-topography .three{
+    background: #FFFFFF;
+    color: white;
+    color: #000;
+}
+.left-topography .four{
+    background: #C4C4C4;
+}
+.left-topography .five{
+    background: #464646;
+}
+.right-topography{
+    margin-top: 40px;
+}
+.six-card{
+    background: url(../img/Desktop.png);
+    background-repeat: no-repeat;
+    width: 758px;
+    height: 441px;
+}
+.seventh-card .left-expense{
+    background: url(../img/iPhone111.png);
+    background-repeat: no-repeat;
+    /* width: 183px; */
+    height: 644.07px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.seventh-card .right-expense ul li{
+    color: #ddd;
+    font-size: 16px;
+    line-height: 160.5%;
+}
+.seventh-card .right-expense{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.eighth-card{
+    background: url(../img/Scene.png);
+    background-repeat: no-repeat;
+}
+.nine-card{
+    margin-top: 30px;
+}
+.nine-card p a{
+    color: #FFEA00;
+}
+.nineth-card .left-expense{
+    background: url(../img/79d8af10fa90bf102cc42623250b76c4\ 1.png);
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
