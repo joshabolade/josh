@@ -157,3 +157,7 @@ h6{
     color: #DDDDDD;
     text-align: center;
 }
+
+@media (max-width:768px){
+    
+}
