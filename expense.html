@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +17,9 @@
     <link rel="stylesheet" href="css/expense.css">
     <title>Expense ng</title>
 </head>
+
 <body>
-    <div class="wrapper container">
+    <div class="wrapper container-fluid px-4 mx-auto">
         <nav id="sidebar">
             <div class="sidebar-header">
                 <h2>Joshua <br> Abolade</h2>
@@ -25,7 +27,7 @@
             </div>
             <ul class="list-unstyled components">
                 <li>
-                    <a href="index.html">HOME</a>                  
+                    <a href="index.html">HOME</a>
                 </li>
                 <li><a href="about.html">ABOUT ME</a></li>
                 <li class="active">
@@ -49,110 +51,156 @@
                     <a href="contact.html">CONTACT ME</a>
                 </li>
             </ul>
-        
+
         </nav>
-    
-            <div id="about-content" class="content">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button type="button" id="sidebarCollapse" class="btn btn-info navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <!-- <i class="fa fa-align-justify"></i> <span></span> -->
-                    <span class="navbar-toggler-icon"></span>
-        
-                    </button>
-        
-                   </nav>
-                <h1>projects</h1>
-                <div class="expense-card first-card"></div>
-                <div class="expense-card project-card second-card">
-                    <div class="left-expense"></div>
-                    <div class="right-expense">
-                        <h3>About the project</h3>
-                        <p>So this product was borne from the concerns of the citizezns of Nigeria on how the government spends public funds. Most of the transactions done by the government are done behind closed doors and very few people know about it.  The only channel to know this expenditure is a very confusing website that seems to be designed to stress you into giving up your search. So we at expenseNG decided to create a platform that simplifies the government daily expenses and also tweets its findings for better coverage and more publicity of the expenditures. This product is created for the public and masses who are intrested in the expenditure of the government and we expect that this should be every citizen of the nation. Our goal is to use this platform to reduce corruption because we believe that whern theres light very fewer evil can be done. The more informed the masses the mpre they can channel their frustration to the right source.</p>
 
-                        <p> In this project i was the LEAD DESIGNER and I worked with a group of developers and designers who helped bring this product into reality.</p>
-                    </div>
-                </div>
-                <div class="expense-card third-card"></div>
-                <div class="expense-card project-card forth-card">
-                    <div class="left-expense"></div>
-                    <div class="right-expense">
-                        <h3>Wireframing</h3>
-                        <p>At the beginning of our visual design process, we created wireframes for testing purposes. This was very important because it helped us focus on the user journey and easily iterate the design a couple of times without having to worry about colors and images. It's also quite easy to transit from low fidelity to high fidelity when an agreed structure is already available. We were a remote team so we used Figma for our Mockups and Prototyping because of its collaboration feature and mostly because we love using the tool. These wireframes were used for alpha testing to have a feel of the entire walk-through experience after 4 iterations we finally concluded on a structure. </p>
-                    </div>
-                </div>
-                <div class="expense-card project-card fifth-card">
-                    <div class="left-expense"></div>
-                    <div class="right-expense">
-                        <h3>User Testing</h3>
-                        <p>Before the lanching of the product, I did several testing rounds both alpha and beta testing, in order to reveal possible usability problems. First of all I wanted to be sure we were not delivernig an information overload to the users. I wanted to focus on the most important information so that we do not repeat what was done in the government’s site. I also wanted to test if the infographics I used were understandable by the layman. Don’t want to be the only one that gets my design. These testing actually led to reitration of the site and total revamp of my initial design uhh!!. But it was worth it. Whtas the use of designing someting that’s meant for the public if they woudn’t use it. </p>
-                    </div>
-                </div>
-                <div class="expense-card sixth-card">
-                    <div class="left-topography">
-                        <h3>Colours And Typography</h3>
-                        <p class="one">#33A97E</p>
-                        <p class="two">#1F2430</p>
-                        <p class="three">#CC0010</p>
-                        <p class="four">#005D3B</p>
-                        <p class="five">#474747</p>
-                    </div>
-                    <div class="right-topography">
-                        <h4>Lato</h4>
-                        <p>H1 - 36px <span>H2 <strong> - 28px</strong></span><span>H3 <strong> - 20px</strong></span><span>Body <strong> - 18px</strong></span></p>
-                    </div>
-                </div>
+        <div id="about-content" class="content">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button type="button" id="sidebarCollapse" class="btn btn-info navbar-toggler" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- <i class="fa fa-align-justify"></i> <span></span> -->
+                    <i class="fa fa-bars" id="mobile-toggle" aria-hidden="true"></i>
+                </button>
 
-                <div class="expense-card project-card seventh-card">
-                    <div class="left-expense"></div>
-                    <div class="right-expense">
-                        <h3>UI Design</h3>
-                        <p>Once we tested out all usability mistakes, we started designing the final screens in Figma. We decided to go with the light visual style and also in the future incorporate the dark mode. We were inspired by the KISS rule because it was important to us that our users have good clarity about what they want to achieve with this application in the quickest time possible. We designed the site in such a way that it can be integrated for use in both all webrowsers and screen sizes including mobile devices. Most of our users would want to easily add visitors to the expect list or add some visitors to the banned list without compromising the details required for security which makes me particularly thrilled about the simplicity of the application and how easy it is to navigate through it.</p>
-                    </div>
-                </div>
-                <div class="expense-card eighth-card"></div>
-                <div class="expense-card project-card nineth-card">
-                    <div class="left-expense"></div>
-                    <div class="right-expense">
-                        <h3>My Conclusion</h3>
-                        <p>Making a differene in a country like mine is quite phenomenom and ‘m actually particulally proud to be a part of this project. And i can’t wait for it to begin to have its full impact on the masses. I was really excited about this project when i first got it and I still am. I really want to make a diffrence and if i do it thorugh design I’d do it over and over again. </p>
+            </nav>
+            <h1>projects</h1>
+            <div class="expense-card first-card"></div>
+            <div class="expense-card project-card second-card">
+                <div class="left-expense"></div>
+                <div class="right-expense">
+                    <h3>About the project</h3>
+                    <p>So this product was borne from the concerns of the citizezns of Nigeria on how the government
+                        spends public funds. Most of the transactions done by the government are done behind closed
+                        doors and very few people know about it. The only channel to know this expenditure is a very
+                        confusing website that seems to be designed to stress you into giving up your search. So we at
+                        expenseNG decided to create a platform that simplifies the government daily expenses and also
+                        tweets its findings for better coverage and more publicity of the expenditures. This product is
+                        created for the public and masses who are intrested in the expenditure of the government and we
+                        expect that this should be every citizen of the nation. Our goal is to use this platform to
+                        reduce corruption because we believe that whern theres light very fewer evil can be done. The
+                        more informed the masses the mpre they can channel their frustration to the right source.</p>
 
-                        <p>Live site: <a href="https://www.expenseng.com">https://www.expenseng.com</a></p> 
-                        <p>Figma link: <a href="https://www.figma.com/file/MYsGV8NXtefVNUkrvdAhQX/ExpenseNG-Official">https://www.figma.com/file/MYsGV8NXtefVNUkrvdAhQX/ExpenseNG-Official.</a></p>     
-                    </div>
+                    <p> In this project i was the LEAD DESIGNER and I worked with a group of developers and designers
+                        who helped bring this product into reality.</p>
                 </div>
-                <div class="expense-card project-card tenth-card">
-                    <div class="last-card1">
-                        <p>4</p>
-                        <h6>Iterations</h6>
-                    </div>
-                    <div class="last-card2">
-                        <p>34</p>
-                        <h6>Pages</h6>
-                    </div>
-                    <div class="last-card3">
-                        <p>17</p>
-                        <h6>Coffee</h6>
-                    </div>
+            </div>
+            <div class="expense-card third-card"></div>
+            <div class="expense-card project-card forth-card">
+                <div class="left-expense"></div>
+                <div class="right-expense">
+                    <h3>Wireframing</h3>
+                    <p>At the beginning of our visual design process, we created wireframes for testing purposes. This
+                        was very important because it helped us focus on the user journey and easily iterate the design
+                        a couple of times without having to worry about colors and images. It's also quite easy to
+                        transit from low fidelity to high fidelity when an agreed structure is already available. We
+                        were a remote team so we used Figma for our Mockups and Prototyping because of its collaboration
+                        feature and mostly because we love using the tool. These wireframes were used for alpha testing
+                        to have a feel of the entire walk-through experience after 4 iterations we finally concluded on
+                        a structure. </p>
                 </div>
-            </div>   
+            </div>
+            <div class="expense-card project-card fifth-card">
+                <div class="left-expense"></div>
+                <div class="right-expense">
+                    <h3>User Testing</h3>
+                    <p>Before the lanching of the product, I did several testing rounds both alpha and beta testing, in
+                        order to reveal possible usability problems. First of all I wanted to be sure we were not
+                        delivernig an information overload to the users. I wanted to focus on the most important
+                        information so that we do not repeat what was done in the government’s site. I also wanted to
+                        test if the infographics I used were understandable by the layman. Don’t want to be the only one
+                        that gets my design. These testing actually led to reitration of the site and total revamp of my
+                        initial design uhh!!. But it was worth it. Whtas the use of designing someting that’s meant for
+                        the public if they woudn’t use it. </p>
+                </div>
+            </div>
+            <div class="expense-card sixth-card">
+                <div class="left-topography">
+                    <h3>Colours And Typography</h3>
+                    <p class="one">#33A97E</p>
+                    <p class="two">#1F2430</p>
+                    <p class="three">#CC0010</p>
+                    <p class="four">#005D3B</p>
+                    <p class="five">#474747</p>
+                </div>
+                <div class="right-topography">
+                    <h4>Lato</h4>
+                    <p>H1 - 36px <span>H2 <strong> - 28px</strong></span><span>H3 <strong> -
+                                20px</strong></span><span>Body <strong> - 18px</strong></span></p>
+                </div>
+            </div>
+
+            <div class="expense-card project-card seventh-card">
+                <div class="left-expense"></div>
+                <div class="right-expense">
+                    <h3>UI Design</h3>
+                    <p>Once we tested out all usability mistakes, we started designing the final screens in Figma. We
+                        decided to go with the light visual style and also in the future incorporate the dark mode. We
+                        were inspired by the KISS rule because it was important to us that our users have good clarity
+                        about what they want to achieve with this application in the quickest time possible. We designed
+                        the site in such a way that it can be integrated for use in both all webrowsers and screen sizes
+                        including mobile devices. Most of our users would want to easily add visitors to the expect list
+                        or add some visitors to the banned list without compromising the details required for security
+                        which makes me particularly thrilled about the simplicity of the application and how easy it is
+                        to navigate through it.</p>
+                </div>
+            </div>
+            <div class="expense-card eighth-card"></div>
+            <div class="expense-card project-card nineth-card">
+                <div class="left-expense"></div>
+                <div class="right-expense">
+                    <h3>My Conclusion</h3>
+                    <p>Making a differene in a country like mine is quite phenomenom and ‘m actually particulally proud
+                        to be a part of this project. And i can’t wait for it to begin to have its full impact on the
+                        masses. I was really excited about this project when i first got it and I still am. I really
+                        want to make a diffrence and if i do it thorugh design I’d do it over and over again. </p>
+
+                    <p>Live site: <a href="https://www.expenseng.com">https://www.expenseng.com</a></p>
+                    <p>Figma link: <a
+                            href="https://www.figma.com/file/MYsGV8NXtefVNUkrvdAhQX/ExpenseNG-Official">https://www.figma.com/file/MYsGV8NXtefVNUkrvdAhQX/ExpenseNG-Official.</a>
+                    </p>
+                </div>
+            </div>
+            <div class="expense-card project-card tenth-card">
+                <div class="last-card1">
+                    <p>4</p>
+                    <h6>Iterations</h6>
+                </div>
+                <div class="last-card2">
+                    <p>34</p>
+                    <h6>Pages</h6>
+                </div>
+                <div class="last-card3">
+                    <p>17</p>
+                    <h6>Coffee</h6>
+                </div>
+            </div>
         </div>
     </div>
-        <hr>
-        <div class="container">
+    </div>
+    <hr>
+    <div class="container">
         <div class="footer-menu">
             <div class="left-side">
-               <a href="projects.html"><i class="fa fa-arrow-left" aria-hidden="true"><span> Projects </span></i></a>
+                <a href="projects.html"><i class="fa fa-arrow-left" aria-hidden="true"><span> Projects </span></i></a>
             </div>
             <div class="right-side">
-               <a href="contact.html"><span> Contact me </span><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="contact.html"><span> Contact me </span><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             </div>
+        </div>
     </div>
-</div>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew +OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft   +2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr    +6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
-<script src="js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew +OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft   +2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr    +6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

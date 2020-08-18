@@ -1,163 +1,176 @@
-body{
-    background: #262626;
+body {
+   /* background: #262626; */
+   background: linear-gradient(
+         281.05deg,
+         #161616 100.04%,
+         rgba(22, 22, 22, 0) 6.33%
+      ),
+      linear-gradient(
+         199.86deg,
+         rgba(22, 22, 22, 0) 6.76%,
+         rgba(22, 22, 22, 0.867683) 7.44%,
+         #161616 3.81%
+      );
 }
-.act{
-    color: #fff;
-    font-weight: bold;
+.act {
+   color: #fff;
+   font-weight: bold;
 }
-.expense-card{
-    width: 100%;
+.expense-card {
+   width: 100%;
 }
-.first-card{
-    background: url(../img/1.png);
-    width: 758px;
-    height: 382px;
-    margin-top: 50px;
+.first-card {
+   background: url(../img/1.png);
+   width: 758px;
+   height: 382px;
+   margin-top: 50px;
 }
-h3{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    color: #DDDDDD;
-    font-family: 'Ubuntu', sans-serif;
+h3 {
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   color: #dddddd;
+   font-family: "Ubuntu", sans-serif;
 }
-p{
-    font-size: 14px;
-    line-height: 160.5%;
-    color: #DDDDDD;
-    font-family: 'Ubuntu', sans-serif;
+p {
+   font-size: 14px;
+   line-height: 160.5%;
+   color: #dddddd;
+   font-family: "Ubuntu", sans-serif;
 }
-.second-card .left-expense{
-    background: url(../img/Group\ 381.png);
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 124px;
-    margin-top: 150px;
+.second-card .left-expense {
+   background: url(../img/group\381png);
+   background-repeat: no-repeat;
+   width: 50%;
+   height: 124px;
+   margin-top: 150px;
 }
-.right-expense{
-    width: 60%;
+.right-expense {
+   width: 60%;
 }
-.left-expense{
-    width: 50%;
+.left-expense {
+   width: 50%;
 }
-.second-card .right-expense{
-    width: 60%;
-    margin-top: 30px;
+.second-card .right-expense {
+   width: 60%;
+   margin-top: 30px;
 }
-.third-card{
-    background: url(../img/Group\ 1488.png);
-    width: 758px;
-    height: 272px;
+.third-card {
+   background: url(../img/group\1488png);
+   width: 758px;
+   height: 272px;
 }
-.forth-card{
-    margin-top: 20px;
+.forth-card {
+   margin-top: 20px;
 }
-.forth-card .left-expense{
-    background: url(../img/iMac\ Pro\ Front\ View.png);
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 240.65px;
+.forth-card .left-expense {
+   background: url(../img/iMac\Pro\Front\View.png);
+   background-repeat: no-repeat;
+   width: 50%;
+   height: 240.65px;
 }
-.forth-card .right-expense, .fifth-card .right-expense, .seventh-card .right-expense, .nineth-card .right-expense{
-    width: 60%;
+.forth-card .right-expense,
+.fifth-card .right-expense,
+.seventh-card .right-expense,
+.nineth-card .right-expense {
+   width: 60%;
 }
-.fifth-card .left-expense{
-    background: url(../img/smartmockups_kdra0ffh\ 1.png);
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 206px;
-    margin-top: 30px;
+.fifth-card .left-expense {
+   background: url(../img/smartmockups_kdra0ffh\1png);
+   background-repeat: no-repeat;
+   width: 50%;
+   height: 206px;
+   margin-top: 30px;
 }
-.sixth-card{
-    display: flex;
-    justify-content: space-evenly;
+.sixth-card {
+   display: flex;
+   justify-content: space-evenly;
 }
-.left-topography p{
-    border-radius: 50%;
-    width: 66.3px;
-    height: 66.37px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 25px;
+.left-topography p {
+   border-radius: 50%;
+   width: 66.3px;
+   height: 66.37px;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 20px;
+   padding-top: 25px;
 }
-.left-topography .one{
-    background: #33A97E;
+.left-topography .one {
+   background: #33a97e;
 }
-.left-topography .two{
-    background: #1F2430;;
+.left-topography .two {
+   background: #1f2430;
 }
-.left-topography .three{
-    background: #6765EC;
+.left-topography .three {
+   background: #6765ec;
 }
-.left-topography .four{
-    background: #005D3B;
+.left-topography .four {
+   background: #005d3b;
 }
-.left-topography .five{
-    background: #474747;
+.left-topography .five {
+   background: #474747;
 }
-.right-topography{
-    margin-top: 100px;
+.right-topography {
+   margin-top: 100px;
 }
-h4{
-    color: #DDDDDD;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 127.4%; 
-    font-family: 'Lato', sans-serif;   
+h4 {
+   color: #dddddd;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 127.4%;
+   font-family: "Lato", sans-serif;
 }
-.right-topography p{
-    font-size: 12px;
-    line-height: 127.4%;
-    color: #DDDDDD;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 20px;
-}
-
-.seventh-card .left-expense{
-    background: url(../img/smartmockups_kdraonvn\ 1.png);
-    background-repeat: no-repeat;
-    width: 50%;
-    margin-top: 90px;
-}
-.eighth-card{
-    background: url(../img/Desktop\ -\ 1.png);
-    background-repeat: no-repeat;
-    width: 758px;
-    height: 441px;
-}
-.nineth-card{
-    margin-top: 20px;
-}
-.nineth-card a{
-    color: #FFEA00;
-}
-.nineth-card .left-expense{
-    background: url(../img/smartmockups_kdra0ffh2.png);
-    background-repeat: no-repeat;
-    width: 283px;
-    height: 206px;
-    margin-top: 55px;
-}
-.nineth-card .right-expense{
-margin-left: 30px;
-}
-.tenth-card p{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    border: 2px solid #DDDDDD;
-    padding-top: 40px;
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: bold;
-}
-h6{
-    color: #DDDDDD;
-    text-align: center;
+.right-topography p {
+   font-size: 12px;
+   line-height: 127.4%;
+   color: #dddddd;
+   font-family: "Open Sans", sans-serif;
+   margin-top: 20px;
 }
 
-@media (max-width:768px){
-    
+.seventh-card .left-expense {
+   background: url(../img/smartmockups_kdraonvn\1png);
+   background-repeat: no-repeat;
+   width: 50%;
+   margin-top: 90px;
+}
+.eighth-card {
+   background: url(../img/Desktop\-\1png);
+   background-repeat: no-repeat;
+   width: 758px;
+   height: 441px;
+}
+.nineth-card {
+   margin-top: 20px;
+}
+.nineth-card a {
+   color: #ffea00;
+}
+.nineth-card .left-expense {
+   background: url(../img/smartmockups_kdra0ffh2.png);
+   background-repeat: no-repeat;
+   width: 283px;
+   height: 206px;
+   margin-top: 55px;
+}
+.nineth-card .right-expense {
+   margin-left: 30px;
+}
+.tenth-card p {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   text-align: center;
+   border: 2px solid #dddddd;
+   padding-top: 40px;
+   font-size: 24px;
+   line-height: 28px;
+   font-weight: bold;
+}
+h6 {
+   color: #dddddd;
+   text-align: center;
+}
+
+@media (max-width: 768px) {
 }

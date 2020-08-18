@@ -1,57 +1,95 @@
-#about-content{
-    margin-left: 100px;
+#about-content h1 {
+   position: relative;
+   text-align: center;
+   font-size: 125px;
+   line-height: 108.4%;
+   color: rgba(255, 255, 255, 0.1);
+   font-family: "Kaushan Script", cursive;
+   margin-top: -130px;
 }
-#about-content h1{
-    text-align: center;
-    font-size: 140px;
-    line-height: 108.4%;
-    color: rgba(255, 255, 255, 0.1);
-    font-family: 'Kaushan Script', cursive;
-    margin-top: -140px;
+.about {
+   margin-top: 50px;
 }
-.about{
-    margin-top: 50px;
+.about p {
+   font-family: "Ubuntu", sans-serif;
+   font-size: 14px;
+   line-height: 16px;
+   color: #dddddd;
 }
-.about p{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    line-height: 16px;
-    color: #DDDDDD;
+.education {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
 }
-.education{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+.education h3 {
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.1em;
+   color: #ffea00;
 }
-.education h3{
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.1em;
-    color: #FFEA00;
+.education p {
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   color: #dddddd;
+   font-family: "Ubuntu", sans-serif;
 }
-.education p{
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #DDDDDD;
-    font-family: 'Ubuntu', sans-serif;
+.education .right-side {
+   margin-left: 200px;
 }
-.education .right-side{
-    margin-left: 200px;
+#about-content h1 {
+   text-align: center;
+   font-size: 140px;
+   line-height: 108.4%;
+   color: rgba(255, 255, 255, 0.1);
+   font-family: "Kaushan Script", cursive;
+   margin-top: -140px;
 }
-@media (max-width:768px){
-	#sidebar{margin-left: -250px;}
-	#sidebar.active{
-		margin-left: 0px;
-	}
-	#sidebarCollapse span{
-		display: none;
-    }
-    #about-content h1{
-        font-size: 120px;
-    }
-    .content p{
-        font-size: 1.2em;
-        line-height: 140%;
-    }
+.about {
+   margin-top: 50px;
+}
+.about p {
+   font-family: "Ubuntu", sans-serif;
+   font-size: 14px;
+   line-height: 16px;
+   color: #dddddd;
+}
+.education {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+.education h3 {
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.1em;
+   color: #ffea00;
+}
+.education p {
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   color: #dddddd;
+   font-family: "Ubuntu", sans-serif;
+}
+.education .right-side {
+   margin-left: 200px;
+}
+@media (max-width: 768px) {
+   #sidebar {
+      margin-left: -250px;
+   }
+   #sidebar.active {
+      margin-left: 0px;
+   }
+   #sidebarCollapse span {
+      display: none;
+   }
+   #about-content h1 {
+      font-size: 120px;
+   }
+   .content p {
+      font-size: 1.2em;
+      line-height: 140%;
+   }
 }
